@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout 
+	android:id="@+id/playistxml"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/orange"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+	  <ListView
+	  android:id="@+id/listview"
+	  android:layout_width="fill_parent"
+	  android:layout_height="287px"
+	  android:layout_marginBottom="150dip"
+	 android:background="@drawable/black"
+	  android:divider="@drawable/black"
+	  />
+	  
+	  <ImageView
+	  android:id="@+id/coverimage"
+	  android:layout_width="fill_parent"
+	  android:layout_height="287px"
+	  android:layout_marginBottom="150dip"
+	  />
+	  
+<TextView
+	android:id="@+id/greenbar"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textSize="40dp"
+	android:layout_x="0px"
+	android:layout_y="137px"
+	android:drawableBottom="@drawable/green"
+	android:visibility="gone"
+	/> 
+  
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/nowplay"
+	android:textColor="@drawable/black"
+	android:layout_x="2px"
+	android:layout_y="300px"
+	/> 
+<TextView
+	android:id="@+id/trackname"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+		android:textColor="@drawable/black"
+	android:text=""
+	android:layout_x="80px"
+	android:layout_y="300px"
+	/>  
+  <ImageButton
+  android:id="@+id/before"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/before"
+  android:layout_x="10px"
+  android:layout_y="320px" />    
+  
+<ImageButton
+  android:id="@+id/stop"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/stop"
+  android:layout_x="65px"
+  android:layout_y="320px" />
+  
+<ImageButton
+  android:id="@+id/play"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/play"
+  android:layout_x="120px"
+  android:layout_y="320px" />
+  
+<ImageButton
+  android:id="@+id/next"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/next"
+  android:layout_x="175px"
+  android:layout_y="320px" />
+
+<ImageButton
+  android:id="@+id/list"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/list"
+  android:layout_x="230px"
+  android:layout_y="320px" />
+ 
+ <TextView
+  android:id="@+id/currenttime"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="250px"
+  android:layout_y="300px"
+  android:textColor="@drawable/black"
+  android:text="0:00" /> 
+<TextView
+  android:id="@+id/timeview"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="280px"
+  android:layout_y="300px"
+  android:textColor="@drawable/black"
+  android:text="/0:00" />
+ 
+<SeekBar
+  android:id="@+id/seebar"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp"
+  android:max="100"
+  android:progress="0"
+  android:layout_x="1px"
+  android:layout_y="375px" 
+  /> 
+  
+
+</AbsoluteLayout>

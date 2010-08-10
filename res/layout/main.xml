@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+	android:id="@+id/back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/green"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+   
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/account"
+    android:layout_x="2px"
+	android:layout_y="10px"
+	android:textColor="@drawable/black"
+    />
+
+<EditText
+	android:id="@+id/field_account"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:layout_x="1px"
+	android:layout_y="30px"
+	 />
+    
+ <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/password"
+    android:layout_x="2px"
+	android:layout_y="80px"
+	android:textColor="@drawable/black"
+    />
+    
+<EditText
+	android:id="@+id/field_password"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:password="true"
+	android:text=""
+	android:layout_x="1px"
+	android:layout_y="100px"
+	 />
+	 
+<Button
+	android:id="@+id/submit"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/submit"
+	android:layout_x="100px"
+	android:layout_y="150px"
+	
+	/>
+<Button 
+	android:id="@+id/exit" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/exit" 
+	android:layout_x="160px"
+	android:layout_y="150px"
+	
+	/>
+	
+<TextView  
+	android:id="@+id/result"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:layout_x="10px"
+	android:layout_y="200px"
+	android:textColor="@drawable/black"
+    />
+</AbsoluteLayout>

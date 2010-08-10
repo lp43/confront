@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">就愛聽音樂</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="submit">送出</string>
+    <string name="exit">離開</string>
+    <string name="choice">選擇</string>
+    <string name="username">你好，小鰻</string>
+    
+    <string name="nowplay">現在播放：</string>
+	<string name="cantfindmusic">該目錄沒有音樂檔...</string>
+	<string name="loading">歌曲載入中，請稍候...</string>
+</resources>

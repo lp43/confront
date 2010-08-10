@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout 	
+	android:id="@+id/back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/orange"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/username"
+	android:textColor="@drawable/black"
+	android:layout_x="2px"
+	android:layout_y="10px"
+	/>
+	
+  <ImageButton
+  android:id="@+id/listen"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/listen"
+  android:layout_x="50px"
+  android:layout_y="70px"
+
+  />
+  
+  <ImageButton
+  android:id="@+id/centerlist"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/centerlist"
+  android:layout_x="160px"
+  android:layout_y="70px"
+
+  />
+  
+ <ImageButton
+  android:id="@+id/choicedata"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/choicedata"
+  android:layout_x="50px"
+  android:layout_y="177px"
+
+  />
+  
+ <ImageButton
+  android:id="@+id/door"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/door"
+  android:layout_x="160px"
+  android:layout_y="177px"
+
+  />
+  
+<ImageView
+   android:id="@+id/monkey"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:src="@drawable/monkey"
+   android:background="@drawable/orange"
+   android:layout_x="240px"
+   android:layout_y="350px"
+   
+ />
+</AbsoluteLayout>
